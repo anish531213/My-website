@@ -1,0 +1,94 @@
+body{
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 200;
+}
+.css-slideshow{
+  position: relative;
+  max-width: 300;/*240em*/
+  height: 160;
+  margin: auto .3em auto .3em;/*3em auto 3em auto*/
+  ;
+}
+.css-slideshow figure{
+  margin: 0px;
+  max-width: 300;/*205*/
+  height: auto;/*160*/
+  background: #000;
+  position: absolute;
+  
+}
+
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .5em;
+  padding: 12px 8px;
+  opacity: 0;
+  transition: opacity .2s;
+  
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .2s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 100%;/*205px*/
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+
+.alignnone size-full wp-image-172 {
+  max-width: 100%;
+  height: auto;
+  
+}
+}
+figure:nth-child(1) {
+  animation: xfade 17s 15s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 17s 13s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 17s 11s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 17s 9s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 17s 7s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 17s 5s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 17s 3s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 17s 1s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
